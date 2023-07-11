@@ -53,6 +53,7 @@
 			children = (
 				04CCBF232A5D3DCB004BD9F8 /* PortfolioApp.swift */,
 				04CCBF252A5D3DCB004BD9F8 /* ContentView.swift */,
+				04CCBF312A5D4359004BD9F8 /* SwiftUIComponents */,
 				04CCBF272A5D3DCC004BD9F8 /* Assets.xcassets */,
 				04CCBF292A5D3DCC004BD9F8 /* Preview Content */,
 			);
@@ -65,6 +66,37 @@
 				04CCBF2A2A5D3DCC004BD9F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04CCBF312A5D4359004BD9F8 /* SwiftUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				04CCBF322A5D4398004BD9F8 /* Beginner */,
+				04CCBF332A5D43A0004BD9F8 /* Intermediate */,
+				04CCBF342A5D43B8004BD9F8 /* Advanced */,
+			);
+			path = SwiftUIComponents;
+			sourceTree = "<group>";
+		};
+		04CCBF322A5D4398004BD9F8 /* Beginner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Beginner;
+			sourceTree = "<group>";
+		};
+		04CCBF332A5D43A0004BD9F8 /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		04CCBF342A5D43B8004BD9F8 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Advanced;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
