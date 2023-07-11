@@ -91,7 +91,7 @@ struct SheetsBootcamp: View {
 FullScreenCover 역시 위처럼 작성할 수 있다. 
 sheet 와 다른 점은 sheet 가 팝업됐을 때, 최상단에 약간의 공간을 남기지않고(아마도 safeArea 만한 크기의) 세그웨이가 나타난다는 것이다.
 
-###### 주의
+##### 주의
 ```Swift
 .sheet(isPresented: $showSheet) {
     if true {
@@ -99,7 +99,8 @@ sheet 와 다른 점은 sheet 가 팝업됐을 때, 최상단에 약간의 공�
     } else {
         sheet2
     }
-}
+    
+    // do not try this at home
 }
 ```
 절대 sheet 내에서 조건부 논리식을 통해 다른 sheet이나 fullScreenCover 를 표시하려해선 안된다!
