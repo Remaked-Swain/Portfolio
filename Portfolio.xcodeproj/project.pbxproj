@@ -12,6 +12,8 @@
 		04CCBF2B2A5D3DCC004BD9F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CCBF2A2A5D3DCC004BD9F8 /* Preview Assets.xcassets */; };
 		04CCBF362A5D617A004BD9F8 /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF352A5D617A004BD9F8 /* ContentsView.swift */; };
 		04CCBF392A5D6522004BD9F8 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF382A5D6522004BD9F8 /* SheetsBootcamp.swift */; };
+		04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF3C2A5E6208004BD9F8 /* IntroView.swift */; };
+		04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF3F2A5E63AF004BD9F8 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		04CCBF352A5D617A004BD9F8 /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
 		04CCBF382A5D6522004BD9F8 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
 		04CCBF3A2A5D672A004BD9F8 /* Sheet&FullScreenCover.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Sheet&FullScreenCover.md"; sourceTree = "<group>"; };
+		04CCBF3C2A5E6208004BD9F8 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		04CCBF3E2A5E6216004BD9F8 /* Onboarding.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Onboarding.md; sourceTree = "<group>"; };
+		04CCBF3F2A5E63AF004BD9F8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		04CCBF322A5D4398004BD9F8 /* Beginner */ = {
 			isa = PBXGroup;
 			children = (
+				04CCBF3B2A5E61B3004BD9F8 /* OnboardingWith@AppStorage */,
 				04CCBF372A5D6500004BD9F8 /* SheetAndFullScreenCover */,
 			);
 			path = Beginner;
@@ -110,6 +116,16 @@
 				04CCBF382A5D6522004BD9F8 /* SheetsBootcamp.swift */,
 			);
 			path = SheetAndFullScreenCover;
+			sourceTree = "<group>";
+		};
+		04CCBF3B2A5E61B3004BD9F8 /* OnboardingWith@AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				04CCBF3E2A5E6216004BD9F8 /* Onboarding.md */,
+				04CCBF3C2A5E6208004BD9F8 /* IntroView.swift */,
+				04CCBF3F2A5E63AF004BD9F8 /* OnboardingView.swift */,
+			);
+			path = "OnboardingWith@AppStorage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CCBF392A5D6522004BD9F8 /* SheetsBootcamp.swift in Sources */,
+				04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */,
 				04CCBF362A5D617A004BD9F8 /* ContentsView.swift in Sources */,
+				04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */,
 				04CCBF242A5D3DCB004BD9F8 /* PortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
