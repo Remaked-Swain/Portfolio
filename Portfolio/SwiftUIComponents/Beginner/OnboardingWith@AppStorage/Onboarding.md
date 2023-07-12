@@ -188,12 +188,12 @@ struct ProfileView: View {
 signOut() 함수를 통해 모든 값을 초기상태로 돌리면 가입절차를 거치기 전 상태와 같아지므로 다시 온보딩 페이지가 나타날 것이다.
 
 ### 생각해보아야 할 점
+```Swift
+struct UserModel {
+    let name: String?
+    let age: Int?
+    let gender: String?
+} 
+```
 > 만약 정형화된 유저 모델이 있었다면?
-    ```Swift
-    struct UserModel {
-        let name: String?
-        let age: Int?
-        let gender: String?
-    } 
-    ```
 > * 모든 프로퍼티를 일일이 선언하여 관리하지 않고 모델 타입의 @AppStorage 만 넣어서 활용할 수 있을 것인가, 또 그렇다면 VM 은 어떻게 재구성해야하는가를 고민해보자
