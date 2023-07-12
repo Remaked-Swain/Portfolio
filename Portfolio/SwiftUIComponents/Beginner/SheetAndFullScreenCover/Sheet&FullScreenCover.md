@@ -61,6 +61,8 @@ struct SheetView: View {
 ```
 상위 뷰에서 sheet 의 트리거로 선언된 상태값을 바인딩해주어 sheet 를 닫고 다시 상위 뷰로 돌아갈 수 있도록 했다.
 
+#### FullScreenCover
+
 ```Swift
 struct SheetsBootcamp: View {
     @State var showSheet: Bool = false
