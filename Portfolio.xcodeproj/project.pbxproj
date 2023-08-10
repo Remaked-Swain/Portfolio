@@ -10,7 +10,6 @@
 		04CCBF242A5D3DCB004BD9F8 /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF232A5D3DCB004BD9F8 /* PortfolioApp.swift */; };
 		04CCBF282A5D3DCC004BD9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CCBF272A5D3DCC004BD9F8 /* Assets.xcassets */; };
 		04CCBF2B2A5D3DCC004BD9F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CCBF2A2A5D3DCC004BD9F8 /* Preview Assets.xcassets */; };
-		04CCBF362A5D617A004BD9F8 /* ContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF352A5D617A004BD9F8 /* ContentsView.swift */; };
 		04CCBF392A5D6522004BD9F8 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF382A5D6522004BD9F8 /* SheetsBootcamp.swift */; };
 		04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF3C2A5E6208004BD9F8 /* IntroView.swift */; };
 		04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF3F2A5E63AF004BD9F8 /* OnboardingView.swift */; };
@@ -18,11 +17,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04571DFA2A84D0540019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04571DFB2A84D0A00019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04CCBF202A5D3DCB004BD9F8 /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CCBF232A5D3DCB004BD9F8 /* PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioApp.swift; sourceTree = "<group>"; };
 		04CCBF272A5D3DCC004BD9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CCBF2A2A5D3DCC004BD9F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04CCBF352A5D617A004BD9F8 /* ContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsView.swift; sourceTree = "<group>"; };
 		04CCBF382A5D6522004BD9F8 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
 		04CCBF3A2A5D672A004BD9F8 /* Sheet&FullScreenCover.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Sheet&FullScreenCover.md"; sourceTree = "<group>"; };
 		04CCBF3C2A5E6208004BD9F8 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -42,9 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04571DF92A84CFFA0019881A /* LocalNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				04571DFA2A84D0540019881A /* README.md */,
+			);
+			path = LocalNotifications;
+			sourceTree = "<group>";
+		};
 		04CCBF172A5D3DCB004BD9F8 = {
 			isa = PBXGroup;
 			children = (
+				04571DFB2A84D0A00019881A /* README.md */,
 				04CCBF222A5D3DCB004BD9F8 /* Portfolio */,
 				04CCBF212A5D3DCB004BD9F8 /* Products */,
 			);
@@ -62,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				04CCBF232A5D3DCB004BD9F8 /* PortfolioApp.swift */,
-				04CCBF352A5D617A004BD9F8 /* ContentsView.swift */,
 				04CCBF312A5D4359004BD9F8 /* SwiftUIComponents */,
 				04CCBF272A5D3DCC004BD9F8 /* Assets.xcassets */,
 				04CCBF292A5D3DCC004BD9F8 /* Preview Content */,
@@ -100,6 +108,7 @@
 		04CCBF332A5D43A0004BD9F8 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				04571DF92A84CFFA0019881A /* LocalNotifications */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -203,7 +212,6 @@
 			files = (
 				04CCBF392A5D6522004BD9F8 /* SheetsBootcamp.swift in Sources */,
 				04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */,
-				04CCBF362A5D617A004BD9F8 /* ContentsView.swift in Sources */,
 				04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */,
 				04CCBF422A5E8087004BD9F8 /* ProfileView.swift in Sources */,
 				04CCBF242A5D3DCB004BD9F8 /* PortfolioApp.swift in Sources */,
