@@ -11,7 +11,7 @@ import SwiftUI
 struct PortfolioApp: App {
     var body: some Scene {
         WindowGroup {
-            LocalNotificationBootcamp()
+            DragGestureBootcamp()
         }
     }
 }
