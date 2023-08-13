@@ -33,7 +33,7 @@ struct SheetsBootcamp: View {
     }
 }
 
-struct SheetView: View {
+fileprivate struct SheetView: View {
     @Binding var showSheet: Bool
     
     var body: some View {
