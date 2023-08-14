@@ -19,6 +19,7 @@
 		04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF3F2A5E63AF004BD9F8 /* OnboardingView.swift */; };
 		04CCBF422A5E8087004BD9F8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF412A5E8087004BD9F8 /* ProfileView.swift */; };
 		04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048152A890568009EFF4B /* ResizableSheetBootcamp.swift */; };
+		04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		04CCBF412A5E8087004BD9F8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		04F048142A890556009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F048152A890568009EFF4B /* ResizableSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetBootcamp.swift; sourceTree = "<group>"; };
+		04F0481C2A89F8A4009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,7 @@
 		04CCBF342A5D43B8004BD9F8 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				04F0481B2A89F893009EFF4B /* MatchedGeometryEffect */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -189,6 +193,15 @@
 				04F048152A890568009EFF4B /* ResizableSheetBootcamp.swift */,
 			);
 			path = ResizableSheet;
+			sourceTree = "<group>";
+		};
+		04F0481B2A89F893009EFF4B /* MatchedGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				04F0481C2A89F8A4009EFF4B /* README.md */,
+				04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */,
+			);
+			path = MatchedGeometryEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CCBF392A5D6522004BD9F8 /* SheetsBootcamp.swift in Sources */,
+				04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */,
 				04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */,
 				049CDC142A86103C00FD91F4 /* DragGestureBootcamp2.swift in Sources */,
