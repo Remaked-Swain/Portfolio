@@ -20,6 +20,7 @@
 		04CCBF422A5E8087004BD9F8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF412A5E8087004BD9F8 /* ProfileView.swift */; };
 		04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048152A890568009EFF4B /* ResizableSheetBootcamp.swift */; };
 		04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */; };
+		04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048542A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		04F048152A890568009EFF4B /* ResizableSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetBootcamp.swift; sourceTree = "<group>"; };
 		04F0481C2A89F8A4009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
+		04F048532A8DC762009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04F048542A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrowsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,7 @@
 				04CCBF322A5D4398004BD9F8 /* Beginner */,
 				04CCBF332A5D43A0004BD9F8 /* Intermediate */,
 				04CCBF342A5D43B8004BD9F8 /* Advanced */,
+				04F048512A8DC3EF009EFF4B /* Concurrency */,
 			);
 			path = SwiftUIComponents;
 			sourceTree = "<group>";
@@ -202,6 +206,23 @@
 				04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */,
 			);
 			path = MatchedGeometryEffect;
+			sourceTree = "<group>";
+		};
+		04F048512A8DC3EF009EFF4B /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				04F048522A8DC6F9009EFF4B /* DoTryCatchThrows */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		04F048522A8DC6F9009EFF4B /* DoTryCatchThrows */ = {
+			isa = PBXGroup;
+			children = (
+				04F048532A8DC762009EFF4B /* README.md */,
+				04F048542A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift */,
+			);
+			path = DoTryCatchThrows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +299,7 @@
 				04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */,
 				04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */,
+				04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */,
 				049CDC142A86103C00FD91F4 /* DragGestureBootcamp2.swift in Sources */,
 				04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */,
 				04571E012A84DE670019881A /* MarkUp.swift in Sources */,
