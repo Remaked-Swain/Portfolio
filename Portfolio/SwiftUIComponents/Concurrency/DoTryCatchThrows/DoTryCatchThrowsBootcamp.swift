@@ -22,12 +22,8 @@ class DoTryCatchThrowsViewModel: ObservableObject {
     private let manager = DataManager()
     
     func fetchTitle() {
-        do {
-            let title = try? manager.getTitle()
-            self.text = title ?? "Default Text..."
-        } catch let error {
-            self.text = error.localizedDescription
-        }
+        let title = try? manager.getTitle()
+        self.text = title ?? "Default Text..."
     }
 }
 

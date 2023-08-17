@@ -140,4 +140,6 @@ class DoTryCatchThrowsViewModel: ObservableObject {
     * 변경점
     1. DataManager.getTitle() 메서드는 이제 처음 계획했던 대로 String값을 반환, 실패할 경우 에러를 던짐
     2. ViewModel.fetchTitle() 메서드는 이제 성공과 실패 상황에 대한 처리를 모두 지원하면서도 효율적인 동작이 가능
-> 만약 실패 시 후속 코드를 살펴보지 않고 에러를 던지거나, 성공 시 데이터를 전달하고 catch 블럭을 타지 않음.
+> 만약 실패 시 후속 코드를 살펴보지 않고 에러를 던지거나, 성공 시 데이터를 전달하고 catch 블럭을 타지 않는다.
+
+
