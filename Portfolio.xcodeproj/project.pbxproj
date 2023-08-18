@@ -214,7 +214,7 @@
 		04F048512A8DC3EF009EFF4B /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
-				04F048562A8DE590009EFF4B /* Async&Await */,
+				04F0485A2A8F3921009EFF4B /* DownloadImage */,
 				04F048522A8DC6F9009EFF4B /* DoTryCatchThrows */,
 			);
 			path = Concurrency;
@@ -229,13 +229,13 @@
 			path = DoTryCatchThrows;
 			sourceTree = "<group>";
 		};
-		04F048562A8DE590009EFF4B /* Async&Await */ = {
+		04F0485A2A8F3921009EFF4B /* DownloadImage */ = {
 			isa = PBXGroup;
 			children = (
 				04F048572A8DE5A3009EFF4B /* README.md */,
 				04F048582A8DE5B1009EFF4B /* DownloadImageAsync.swift */,
 			);
-			path = "Async&Await";
+			path = DownloadImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
