@@ -22,6 +22,7 @@
 		04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */; };
 		04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048542A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift */; };
 		04F048592A8DE5B1009EFF4B /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048582A8DE5B1009EFF4B /* DownloadImageAsync.swift */; };
+		04F048642A90BE17009EFF4B /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048632A90BE17009EFF4B /* DependencyInjection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		04F048542A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrowsBootcamp.swift; sourceTree = "<group>"; };
 		04F048572A8DE5A3009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F048582A8DE5B1009EFF4B /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		04F048622A90A878009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04F048632A90BE17009EFF4B /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,7 @@
 		04CCBF342A5D43B8004BD9F8 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				04F048612A90A868009EFF4B /* DependencyInjection */,
 				04F0481B2A89F893009EFF4B /* MatchedGeometryEffect */,
 			);
 			path = Advanced;
@@ -236,6 +240,15 @@
 				04F048582A8DE5B1009EFF4B /* DownloadImageAsync.swift */,
 			);
 			path = DownloadImage;
+			sourceTree = "<group>";
+		};
+		04F048612A90A868009EFF4B /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				04F048622A90A878009EFF4B /* README.md */,
+				04F048632A90BE17009EFF4B /* DependencyInjection.swift */,
+			);
+			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +333,7 @@
 				04CCBF422A5E8087004BD9F8 /* ProfileView.swift in Sources */,
 				04F048592A8DE5B1009EFF4B /* DownloadImageAsync.swift in Sources */,
 				04CCBF242A5D3DCB004BD9F8 /* PortfolioApp.swift in Sources */,
+				04F048642A90BE17009EFF4B /* DependencyInjection.swift in Sources */,
 				04571DFD2A84D7450019881A /* LocalNotificationBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
