@@ -23,6 +23,7 @@
 		04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048542A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift */; };
 		04F048592A8DE5B1009EFF4B /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048582A8DE5B1009EFF4B /* DownloadImageAsync.swift */; };
 		04F048642A90BE17009EFF4B /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048632A90BE17009EFF4B /* DependencyInjection.swift */; };
+		04F0486B2A91B3A1009EFF4B /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0486A2A91B3A1009EFF4B /* WeakSelfBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		04F048582A8DE5B1009EFF4B /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		04F048622A90A878009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F048632A90BE17009EFF4B /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		04F048692A91B38A009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04F0486A2A91B3A1009EFF4B /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,7 @@
 		04CCBF332A5D43A0004BD9F8 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				04F048682A91B378009EFF4B /* WeakSelf */,
 				049CDC0F2A86053A00FD91F4 /* DragGesture */,
 				04571DF92A84CFFA0019881A /* LocalNotifications */,
 			);
@@ -251,6 +255,15 @@
 			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
+		04F048682A91B378009EFF4B /* WeakSelf */ = {
+			isa = PBXGroup;
+			children = (
+				04F048692A91B38A009EFF4B /* README.md */,
+				04F0486A2A91B3A1009EFF4B /* WeakSelfBootcamp.swift */,
+			);
+			path = WeakSelf;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,6 +343,7 @@
 				04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */,
 				04571E012A84DE670019881A /* MarkUp.swift in Sources */,
 				04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */,
+				04F0486B2A91B3A1009EFF4B /* WeakSelfBootcamp.swift in Sources */,
 				04CCBF422A5E8087004BD9F8 /* ProfileView.swift in Sources */,
 				04F048592A8DE5B1009EFF4B /* DownloadImageAsync.swift in Sources */,
 				04CCBF242A5D3DCB004BD9F8 /* PortfolioApp.swift in Sources */,
