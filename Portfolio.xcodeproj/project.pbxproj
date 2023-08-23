@@ -24,6 +24,7 @@
 		04F048592A8DE5B1009EFF4B /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048582A8DE5B1009EFF4B /* DownloadImageAsync.swift */; };
 		04F048642A90BE17009EFF4B /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048632A90BE17009EFF4B /* DependencyInjection.swift */; };
 		04F0486B2A91B3A1009EFF4B /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0486A2A91B3A1009EFF4B /* WeakSelfBootcamp.swift */; };
+		04F048C12A95BAD4009EFF4B /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048C02A95BAD4009EFF4B /* GenericsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		04F048632A90BE17009EFF4B /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		04F048692A91B38A009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F0486A2A91B3A1009EFF4B /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
+		04F048BF2A95BAC7009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04F048C02A95BAD4009EFF4B /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,7 @@
 		04CCBF342A5D43B8004BD9F8 /* Advanced */ = {
 			isa = PBXGroup;
 			children = (
+				04F048BE2A95BABA009EFF4B /* Generics */,
 				04F048612A90A868009EFF4B /* DependencyInjection */,
 				04F0481B2A89F893009EFF4B /* MatchedGeometryEffect */,
 			);
@@ -264,6 +268,15 @@
 			path = WeakSelf;
 			sourceTree = "<group>";
 		};
+		04F048BE2A95BABA009EFF4B /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				04F048BF2A95BAC7009EFF4B /* README.md */,
+				04F048C02A95BAD4009EFF4B /* GenericsBootcamp.swift */,
+			);
+			path = Generics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,6 +353,7 @@
 				04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */,
 				04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */,
 				049CDC142A86103C00FD91F4 /* DragGestureBootcamp2.swift in Sources */,
+				04F048C12A95BAD4009EFF4B /* GenericsBootcamp.swift in Sources */,
 				04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */,
 				04571E012A84DE670019881A /* MarkUp.swift in Sources */,
 				04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */,
