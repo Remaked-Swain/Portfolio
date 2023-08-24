@@ -25,6 +25,7 @@
 		04F048642A90BE17009EFF4B /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048632A90BE17009EFF4B /* DependencyInjection.swift */; };
 		04F0486B2A91B3A1009EFF4B /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0486A2A91B3A1009EFF4B /* WeakSelfBootcamp.swift */; };
 		04F048C12A95BAD4009EFF4B /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048C02A95BAD4009EFF4B /* GenericsBootcamp.swift */; };
+		04FEB1C42A972EFC0064E9C7 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEB1C32A972EFC0064E9C7 /* MagnificationGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		04F0486A2A91B3A1009EFF4B /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		04F048BF2A95BAC7009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F048C02A95BAD4009EFF4B /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		04FEB1C22A972E740064E9C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04FEB1C32A972EFC0064E9C7 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,7 @@
 		04CCBF332A5D43A0004BD9F8 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				04FEB1C12A972E550064E9C7 /* MagnificationGesture */,
 				04F048682A91B378009EFF4B /* WeakSelf */,
 				049CDC0F2A86053A00FD91F4 /* DragGesture */,
 				04571DF92A84CFFA0019881A /* LocalNotifications */,
@@ -277,6 +281,15 @@
 			path = Generics;
 			sourceTree = "<group>";
 		};
+		04FEB1C12A972E550064E9C7 /* MagnificationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				04FEB1C22A972E740064E9C7 /* README.md */,
+				04FEB1C32A972EFC0064E9C7 /* MagnificationGestureBootcamp.swift */,
+			);
+			path = MagnificationGesture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,6 +362,7 @@
 			files = (
 				04CCBF392A5D6522004BD9F8 /* SheetsBootcamp.swift in Sources */,
 				04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				04FEB1C42A972EFC0064E9C7 /* MagnificationGestureBootcamp.swift in Sources */,
 				049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */,
 				04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */,
 				04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */,
