@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04530C582A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */; };
 		04571DFD2A84D7450019881A /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */; };
 		04571E012A84DE670019881A /* MarkUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571E002A84DE670019881A /* MarkUp.swift */; };
 		049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CDC112A86055700FD91F4 /* DragGestureBootcamp.swift */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04530C562A98A64A00409DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		04571DFA2A84D0540019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFB2A84D0A00019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
@@ -75,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04530C552A98A63700409DF3 /* ScrollViewReader */ = {
+			isa = PBXGroup;
+			children = (
+				04530C562A98A64A00409DF3 /* README.md */,
+				04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */,
+			);
+			path = ScrollViewReader;
+			sourceTree = "<group>";
+		};
 		04571DF92A84CFFA0019881A /* LocalNotifications */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +183,7 @@
 		04CCBF332A5D43A0004BD9F8 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				04530C552A98A63700409DF3 /* ScrollViewReader */,
 				04FEB1C12A972E550064E9C7 /* MagnificationGesture */,
 				04F048682A91B378009EFF4B /* WeakSelf */,
 				049CDC0F2A86053A00FD91F4 /* DragGesture */,
@@ -369,6 +382,7 @@
 				049CDC142A86103C00FD91F4 /* DragGestureBootcamp2.swift in Sources */,
 				04F048C12A95BAD4009EFF4B /* GenericsBootcamp.swift in Sources */,
 				04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */,
+				04530C582A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift in Sources */,
 				04571E012A84DE670019881A /* MarkUp.swift in Sources */,
 				04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */,
 				04F0486B2A91B3A1009EFF4B /* WeakSelfBootcamp.swift in Sources */,
