@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04530C582A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */; };
+		04530C852A99D96600409DF3 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530C842A99D96600409DF3 /* GeometryReaderBootcamp.swift */; };
 		04571DFD2A84D7450019881A /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */; };
 		04571E012A84DE670019881A /* MarkUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571E002A84DE670019881A /* MarkUp.swift */; };
 		049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CDC112A86055700FD91F4 /* DragGestureBootcamp.swift */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		04530C562A98A64A00409DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
+		04530C832A99D94E00409DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04530C842A99D96600409DF3 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		04571DFA2A84D0540019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFB2A84D0A00019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 				04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */,
 			);
 			path = ScrollViewReader;
+			sourceTree = "<group>";
+		};
+		04530C822A99D94200409DF3 /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				04530C832A99D94E00409DF3 /* README.md */,
+				04530C842A99D96600409DF3 /* GeometryReaderBootcamp.swift */,
+			);
+			path = GeometryReader;
 			sourceTree = "<group>";
 		};
 		04571DF92A84CFFA0019881A /* LocalNotifications */ = {
@@ -183,6 +195,7 @@
 		04CCBF332A5D43A0004BD9F8 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				04530C822A99D94200409DF3 /* GeometryReader */,
 				04530C552A98A63700409DF3 /* ScrollViewReader */,
 				04FEB1C12A972E550064E9C7 /* MagnificationGesture */,
 				04F048682A91B378009EFF4B /* WeakSelf */,
@@ -377,6 +390,7 @@
 				04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				04FEB1C42A972EFC0064E9C7 /* MagnificationGestureBootcamp.swift in Sources */,
 				049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */,
+				04530C852A99D96600409DF3 /* GeometryReaderBootcamp.swift in Sources */,
 				04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */,
 				04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */,
 				049CDC142A86103C00FD91F4 /* DragGestureBootcamp2.swift in Sources */,
