@@ -10,6 +10,7 @@
 		04530C582A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */; };
 		04530C852A99D96600409DF3 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530C842A99D96600409DF3 /* GeometryReaderBootcamp.swift */; };
 		04530CAB2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530CAA2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift */; };
+		04530CB02A9F0A1E00409DF3 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530CAF2A9F0A1E00409DF3 /* TypealiasBootcamp.swift */; };
 		04571DFD2A84D7450019881A /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */; };
 		04571E012A84DE670019881A /* MarkUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571E002A84DE670019881A /* MarkUp.swift */; };
 		049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CDC112A86055700FD91F4 /* DragGestureBootcamp.swift */; };
@@ -38,6 +39,8 @@
 		04530C842A99D96600409DF3 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		04530CA92A9DD0C700409DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04530CAA2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		04530CAE2A9F0A0C00409DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04530CAF2A9F0A1E00409DF3 /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
 		04571DFA2A84D0540019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFB2A84D0A00019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
@@ -109,6 +112,15 @@
 				04530CAA2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift */,
 			);
 			path = ViewBuilder;
+			sourceTree = "<group>";
+		};
+		04530CAD2A9F09FF00409DF3 /* Typealias */ = {
+			isa = PBXGroup;
+			children = (
+				04530CAE2A9F0A0C00409DF3 /* README.md */,
+				04530CAF2A9F0A1E00409DF3 /* TypealiasBootcamp.swift */,
+			);
+			path = Typealias;
 			sourceTree = "<group>";
 		};
 		04571DF92A84CFFA0019881A /* LocalNotifications */ = {
@@ -207,6 +219,7 @@
 		04CCBF332A5D43A0004BD9F8 /* Intermediate */ = {
 			isa = PBXGroup;
 			children = (
+				04530CAD2A9F09FF00409DF3 /* Typealias */,
 				04530C822A99D94200409DF3 /* GeometryReader */,
 				04530C552A98A63700409DF3 /* ScrollViewReader */,
 				04FEB1C12A972E550064E9C7 /* MagnificationGesture */,
@@ -412,6 +425,7 @@
 				04530C582A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift in Sources */,
 				04571E012A84DE670019881A /* MarkUp.swift in Sources */,
 				04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */,
+				04530CB02A9F0A1E00409DF3 /* TypealiasBootcamp.swift in Sources */,
 				04F0486B2A91B3A1009EFF4B /* WeakSelfBootcamp.swift in Sources */,
 				04CCBF422A5E8087004BD9F8 /* ProfileView.swift in Sources */,
 				04530CAB2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift in Sources */,
