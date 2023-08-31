@@ -145,10 +145,3 @@ fileprivate struct SecondaryScreen: View {
     2. 네비게이션 타이틀 변경의 트리거인 버튼을 구현
     3. `.preference()` 메서드로 전달할 값(네비게이션 타이틀)을 text에서 navigationTitle 상태변수로 변경
 > 이제 버튼을 누르면 상위 뷰의 text 값이 하위 뷰에서 올라온 문자열 값에 영향을 받게 되어 네비게이션 타이틀이 변경된다.
-
--------------------------------------------------------
-
-## GeometryReader와 PreferenceKey의 콜라보레이션 예제
-하위 뷰의 데이터를 상위 뷰로 전달해 활용할 수 있는 PreferenceKey를 GeometryReader와 같이 사용하면 어떤 작업이 가능할까?
-
-
