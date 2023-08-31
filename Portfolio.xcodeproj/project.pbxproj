@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		043D06752AA063BB0023B0D1 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D06742AA063BB0023B0D1 /* PreferenceKeyBootcamp.swift */; };
+		043D06772AA075290023B0D1 /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D06762AA075290023B0D1 /* GeometryPreferenceKeyBootcamp.swift */; };
 		04530C582A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */; };
 		04530C852A99D96600409DF3 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530C842A99D96600409DF3 /* GeometryReaderBootcamp.swift */; };
 		04530CAB2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530CAA2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		043D06732AA063A50023B0D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		043D06742AA063BB0023B0D1 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		043D06762AA075290023B0D1 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		04530C562A98A64A00409DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04530C572A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		04530C832A99D94E00409DF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				043D06732AA063A50023B0D1 /* README.md */,
 				043D06742AA063BB0023B0D1 /* PreferenceKeyBootcamp.swift */,
+				043D06762AA075290023B0D1 /* GeometryPreferenceKeyBootcamp.swift */,
 			);
 			path = PreferenceKey;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043D06772AA075290023B0D1 /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				04CCBF392A5D6522004BD9F8 /* SheetsBootcamp.swift in Sources */,
 				04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				04FEB1C42A972EFC0064E9C7 /* MagnificationGestureBootcamp.swift in Sources */,
