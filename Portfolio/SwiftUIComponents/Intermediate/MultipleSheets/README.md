@@ -131,9 +131,9 @@ fileprivate struct SheetScreen: View {
 }
 ```
 
-    * item 기반 `.sheet()` 사용
+    * item 기반 .sheet() 사용
     1. selectedModel 상태변수를 옵셔널 타입으로 변경
-    2. item 기반 `.sheet()` 수정자 사용
+    2. item 기반 .sheet() 수정자 사용
 > 문제가 해결 되었다.
 > `.sheet(item: Binding<Identifiable?>, content: (Identifiable) -> View)` 수정자는
 > 하위 뷰로 분기하는 조건을 데이터 자체로 식별하기 때문에 Identifiable 프로토콜을 사용해서 id값으로 구별될 수 있게 한 것이다.
