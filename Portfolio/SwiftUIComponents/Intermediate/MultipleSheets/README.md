@@ -1,7 +1,7 @@
 # Multiple Sheets from a single view
 동일 계층에서 .sheet 수정자는 단 하나만 존재해야한다. 그렇다면 하나의 sheet을 재사용해서 다양한 분기를 이루는 방법은 무엇이 있을지 알아보자.
 
-## `.sheet()` 수정자에 대한 논리적 분기와 시트 모달 방법
+## 논리적 분기가 담긴 `.sheet()` 수정자에 대해 발생할 수 있는 버그
 
 * 기본 세팅
 ```Swift
@@ -60,3 +60,83 @@ fileprivate struct SheetScreen: View {
 
 > 따라서 동일 계층에 `.sheet()` 수정자는 단 하나만 존재해야하며 그 시트에 논리적인 분기를 기대해서는 안된다고 한다.
 > 그러면 최대한 코드를 재사용해서 다양한 시트를 구성하려면 어떻게 해야 할까?
+
+------------------------------------------------------------
+
+## 대체 방안
+하나의 sheet을 재사용해서 다양한 분기를 이루는 방법을 두 가지 소개한다.
+
+* 바인딩 사용
+```Swift
+struct MultipleSheetsBootcamp: View {
+    @State private var selectedModel: RandomModel = RandomModel(title: "초기 제목")
+    @State private var showSheet: Bool = false
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            // 생략...
+        }
+        .sheet(isPresented: $showSheet) {
+            SheetScreen(selectedModel: $selectedModel)
+        }
+    }
+}
+
+fileprivate struct SheetScreen: View {
+    @Binding var selectedModel: RandomModel
+    
+    var body: some View {
+        Text(selectedModel.title)
+            .font(.largeTitle)
+    }
+}
+```
+
+    * 바인딩 사용
+    1. 데이터를 생성자에 상수로 전달하지 않고 바인딩하여 상위 뷰와 원천 데이터를 연결함
+> 문제가 해결 되었다.
+> 그러나 데이터를 상수로 전달해서 뭔가 특별한 작업을 해야한다면 다음 방안을 써보자.
+
+* item 기반 `.sheet()` 사용
+```Swift
+struct MultipleSheetsBootcamp: View {
+    @State private var selectedModel: RandomModel? = nil
+    @State private var showSheet: Bool = false
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            Button("버튼 #1") {
+                selectedModel = RandomModel(title: "제목 #1")
+                showSheet.toggle()
+            }
+            
+            Button("버튼 #2") {
+                selectedModel = RandomModel(title: "제목 #2")
+                showSheet.toggle()
+            }
+        }
+        .sheet(item: $selectedModel) { selectedModel in
+            SheetScreen(selectedModel: selectedModel)
+        }
+    }
+}
+
+fileprivate struct SheetScreen: View {
+    let selectedModel: RandomModel
+    
+    var body: some View {
+        Text(selectedModel.title)
+            .font(.largeTitle)
+    }
+}
+```
+
+    * item 기반 `.sheet()` 사용
+    1. selectedModel 상태변수를 옵셔널 타입으로 변경
+    2. item 기반 `.sheet()` 수정자 사용
+> 문제가 해결 되었다.
+> `.sheet(item: Binding<Identifiable?>, content: (Identifiable) -> View)` 수정자는
+> 하위 뷰로 분기하는 조건을 데이터 자체로 식별하기 때문에 Identifiable 프로토콜을 사용해서 id값으로 구별될 수 있게 한 것이다.
+> 또한 시트로 이동하지 않는 조건도 있기 때문에 이 경우를 처리하기 위해 옵셔널로 매개변수를 받는 것이다.
+> item 기반 `.sheet()` 사용 방안은 정말 유용한데 특히 수많은 시트 분기가 필요한 경우에 유용하다.
+> 예를 들어 제목 #1, 2, 3, 4...처럼 무수히 많은 시트 분기가 존재할 경우에도 일일이 수정자를 붙혀 바인딩을 걸어줄 필요가 없게 된다.

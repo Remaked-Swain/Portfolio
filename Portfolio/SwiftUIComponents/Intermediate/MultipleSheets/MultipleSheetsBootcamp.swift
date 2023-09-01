@@ -13,7 +13,7 @@ struct RandomModel: Identifiable {
 }
 
 struct MultipleSheetsBootcamp: View {
-    @State private var selectedModel: RandomModel = RandomModel(title: "초기 제목")
+    @State private var selectedModel: RandomModel? = nil
     @State private var showSheet: Bool = false
     
     var body: some View {
@@ -28,7 +28,7 @@ struct MultipleSheetsBootcamp: View {
                 showSheet.toggle()
             }
         }
-        .sheet(isPresented: $showSheet) {
+        .sheet(item: $selectedModel) { selectedModel in
             SheetScreen(selectedModel: selectedModel)
         }
     }
