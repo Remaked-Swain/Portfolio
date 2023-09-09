@@ -13,7 +13,7 @@
 		04530CAB2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530CAA2A9DD14E00409DF3 /* ViewBuilderBootcamp.swift */; };
 		04530CB02A9F0A1E00409DF3 /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04530CAF2A9F0A1E00409DF3 /* TypealiasBootcamp.swift */; };
 		04571DFD2A84D7450019881A /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */; };
-		04571E012A84DE670019881A /* MarkUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571E002A84DE670019881A /* MarkUp.swift */; };
+		04571E012A84DE670019881A /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04571E002A84DE670019881A /* Documentation.swift */; };
 		0467039C2AA1D1030067EFB3 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467039B2AA1D1030067EFB3 /* MultipleSheetsBootcamp.swift */; };
 		049CDC122A86055700FD91F4 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CDC112A86055700FD91F4 /* DragGestureBootcamp.swift */; };
 		049CDC142A86103C00FD91F4 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049CDC132A86103C00FD91F4 /* DragGestureBootcamp2.swift */; };
@@ -48,7 +48,8 @@
 		04571DFA2A84D0540019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFB2A84D0A00019881A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04571DFC2A84D7450019881A /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
-		04571E002A84DE670019881A /* MarkUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkUp.swift; sourceTree = "<group>"; };
+		04571E002A84DE670019881A /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+		0458E3DD2AAC2AAD00F1FA49 /* Markdown.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Markdown.md; sourceTree = "<group>"; };
 		0467039A2AA1D0680067EFB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0467039B2AA1D1030067EFB3 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		049CDC102A86054900FD91F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -150,17 +151,18 @@
 		04571DFE2A84DE2C0019881A /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
-				04571DFF2A84DE400019881A /* MarkUp */,
+				04571DFF2A84DE400019881A /* Markdown & Documetation */,
 			);
 			path = Xcode;
 			sourceTree = "<group>";
 		};
-		04571DFF2A84DE400019881A /* MarkUp */ = {
+		04571DFF2A84DE400019881A /* Markdown & Documetation */ = {
 			isa = PBXGroup;
 			children = (
-				04571E002A84DE670019881A /* MarkUp.swift */,
+				04571E002A84DE670019881A /* Documentation.swift */,
+				0458E3DD2AAC2AAD00F1FA49 /* Markdown.md */,
 			);
-			path = MarkUp;
+			path = "Markdown & Documetation";
 			sourceTree = "<group>";
 		};
 		046703992AA1D0510067EFB3 /* MultipleSheets */ = {
@@ -450,7 +452,7 @@
 				043D06752AA063BB0023B0D1 /* PreferenceKeyBootcamp.swift in Sources */,
 				04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */,
 				04530C582A98A6E400409DF3 /* ScrollViewReaderBootcamp.swift in Sources */,
-				04571E012A84DE670019881A /* MarkUp.swift in Sources */,
+				04571E012A84DE670019881A /* Documentation.swift in Sources */,
 				04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */,
 				04530CB02A9F0A1E00409DF3 /* TypealiasBootcamp.swift in Sources */,
 				04F0486B2A91B3A1009EFF4B /* WeakSelfBootcamp.swift in Sources */,
