@@ -24,6 +24,7 @@
 		04CCBF3D2A5E6208004BD9F8 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF3C2A5E6208004BD9F8 /* IntroView.swift */; };
 		04CCBF402A5E63AF004BD9F8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF3F2A5E63AF004BD9F8 /* OnboardingView.swift */; };
 		04CCBF422A5E8087004BD9F8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CCBF412A5E8087004BD9F8 /* ProfileView.swift */; };
+		04E281642C352BAC00C118DF /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E281632C352BAC00C118DF /* TaskBootcamp.swift */; };
 		04F048162A890568009EFF4B /* ResizableSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048152A890568009EFF4B /* ResizableSheetBootcamp.swift */; };
 		04F0481E2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0481D2A89F946009EFF4B /* MatchedGeometryEffectBootcamp.swift */; };
 		04F048552A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F048542A8DC76D009EFF4B /* DoTryCatchThrowsBootcamp.swift */; };
@@ -65,6 +66,8 @@
 		04CCBF3E2A5E6216004BD9F8 /* Onboarding.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Onboarding.md; sourceTree = "<group>"; };
 		04CCBF3F2A5E63AF004BD9F8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		04CCBF412A5E8087004BD9F8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		04E281632C352BAC00C118DF /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
+		04E281652C352CB500C118DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F048142A890556009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04F048152A890568009EFF4B /* ResizableSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetBootcamp.swift; sourceTree = "<group>"; };
 		04F0481C2A89F8A4009EFF4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -289,6 +292,15 @@
 			path = "OnboardingWith@AppStorage";
 			sourceTree = "<group>";
 		};
+		04E281622C352B9700C118DF /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				04E281652C352CB500C118DF /* README.md */,
+				04E281632C352BAC00C118DF /* TaskBootcamp.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
 		04F048132A890504009EFF4B /* ResizableSheet */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +322,7 @@
 		04F048512A8DC3EF009EFF4B /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
+				04E281622C352B9700C118DF /* Task */,
 				04F0485A2A8F3921009EFF4B /* DownloadImage */,
 				04F048522A8DC6F9009EFF4B /* DoTryCatchThrows */,
 			);
@@ -461,6 +474,7 @@
 				04F048592A8DE5B1009EFF4B /* DownloadImageAsync.swift in Sources */,
 				04CCBF242A5D3DCB004BD9F8 /* PortfolioApp.swift in Sources */,
 				04F048642A90BE17009EFF4B /* DependencyInjection.swift in Sources */,
+				04E281642C352BAC00C118DF /* TaskBootcamp.swift in Sources */,
 				04571DFD2A84D7450019881A /* LocalNotificationBootcamp.swift in Sources */,
 				0467039C2AA1D1030067EFB3 /* MultipleSheetsBootcamp.swift in Sources */,
 			);
