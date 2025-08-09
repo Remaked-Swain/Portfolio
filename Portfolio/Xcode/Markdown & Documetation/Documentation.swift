@@ -22,7 +22,7 @@ import Foundation
     - name: 이름
     - age: 나이
  
- - Throws: Person
+ - Throws: 오류를 던질 수 있다면 이곳에 작성하기, 없다면 생략하거나 "없음"으로 표시
  
  - Returns: 반환 값에 대한 설명은 이곳에 적기
  
@@ -32,33 +32,33 @@ import Foundation
  
  - Version: 버전 정보에 대해 적기
  
- - Precondition:
+ - Precondition: 호출 또는 사용 전에 인지해야 할 정보를 이곳에 작성 (예: `age` 매개변수는 0보다 크거나 같아야 합니다.)
  
- - Postcondition:
+ - Postcondition: 호출 또는 사용 후 인지해야 할 정보를 이곳에 작성 (예: 반환된 `Person` 객체의 `name`, `age` 프로퍼티 값은 입력된 매개변수와 동일해야 합니다.)
  
- - Requires:
+ - Requires: 이 객체가 필요로 하는 외부 의존성 같은 것이 있다면 이곳에 작성
  
- - Invariant:
+ - Invariant: 이 객체의 동작이 바꾸지 않는 것이 있다면 이곳에 작성
  
- - Complexity:
+ - Complexity: 시간복잡도 또는 공간복잡도에 대한 설명을 이곳에 작성
  
- - Warning:
+ - Warning: 주의해야할 사항을 안내하고자 하려면 이곳에 작성
  
- - Copyright:
+ - Copyright: 저작권 관련 고지를 하고자 한다면 이곳에 작성
  
- - Authors:
+ - Authors: 작성자에 대해 알리고자 한다면 이곳에 작성
  
- - Date:
+ - Date: 날짜 정보를 이곳에 작성
  
- - SeeAlso:
+ - SeeAlso: 추가로 참고하기 좋은 내용이 있다면 이곳에 작성
  
- - Since:
+ - Since: 문서화 주석의 작성 시점이나 그외의 기간 정보를 이곳에 작성
  
- - Attention:
+ - Attention: Warning, Note 등과 다른 성격으로 인지하여야 할 사항을 이곳에 작성
  
- - Bug:
+ - Bug: 알려진 버그를 이곳에 작성
  
- - Experiment:
+ - Experiment: 실험적 기능에 대한 설명을 이곳에 작성
  
  - Remark:
  */
